@@ -47,10 +47,10 @@ body{
 
 /*ROMARINHO*/
 #romas{
-    margin: 5px;
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(0, 0, 0, 1);
     padding: 10px;
+    margin: 5px;
     display: flex;
     width: 250px;
     justify-content: center;
@@ -82,3 +82,14 @@ body{
 
 
 
+/* Media query para telas menores que 900px */
+@media (max-width: 900px) {
+    #window {
+        font-size: 14px;
+    }
+    #search {
+        width: 100%;
+        margin: 20px;
+    }
+}
+/**/
