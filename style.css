@@ -8,6 +8,10 @@ body{
     display: flex;
 }
 
+#container{
+    display: flex;
+}
+
 /*EMERSON SHEIK*/
 #meme{
     background-color: rgba(0, 0, 0, 0.5);
@@ -80,11 +84,9 @@ body{
 }
 
 
-
-
 /* Media query para telas menores que 900px */
 @media (max-width: 900px) {
-    #window {
+    #container {
         font-size: 14px;
     }
     #search {
