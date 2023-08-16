@@ -1,0 +1,84 @@
+*{
+    font-family: inter;
+    font-size: 14px;
+}
+
+body{
+    background: url(./assets/OIP.jpg) no-repeat center/cover;
+    display: flex;
+}
+
+/*EMERSON SHEIK*/
+#meme{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    width: 250px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#meme img{
+    width: 250px;
+    height: 255px;
+}
+
+#emersonsheik{
+    color: white;
+    display: flex;
+}
+
+#emersonsheik:hover{
+    opacity: 70%;
+}
+
+
+#bio{
+    text-align: justify;
+    color: white;
+}
+/**/
+
+
+
+/*ROMARINHO*/
+#romas{
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 10px;
+    display: flex;
+    width: 250px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#romas img{
+    width: 250px;
+    height: 255px;
+}
+
+#romarinho{
+    color: white;
+    display: flex;
+}
+
+#romarinho:hover{
+    opacity: 70%;
+}
+
+
+#bioromas{
+    text-align: justify;
+    color: white;
+}
+
+
+
+
